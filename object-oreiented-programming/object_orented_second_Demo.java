@@ -6,8 +6,6 @@ class Computer {
   public String getMePen(int cost) {
     return "Pen is cost = "+cost;
   }
-
-
 }
 
 
