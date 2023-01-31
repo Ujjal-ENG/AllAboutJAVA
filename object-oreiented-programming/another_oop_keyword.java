@@ -15,10 +15,10 @@ class B extends A {
   }
 
   public B(int b) {
-    super(b);
-    System.out.println("In b parameter");
+    this();
+    System.out.println("In b parameter"+b);
   }
-  
+
 }
 
 
