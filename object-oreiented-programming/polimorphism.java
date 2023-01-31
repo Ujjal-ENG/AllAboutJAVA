@@ -6,17 +6,19 @@ class Human {
     return age;
   }
 
+  public void setAge(int age) {
+    this.age = age;
+  }
+  
   public String getName() {
     return name;
   }
-
-  public void setAge(int a) {
-    age = a;
+  
+  public void setName(String name) {
+    this.name = name;
   }
 
-  public void setName(String n) {
-    name = n;
-  }
+  
 }
 
 
