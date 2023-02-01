@@ -9,7 +9,12 @@ class A {
 }
 
 class B extends A{
-  
+  /* (non-Javadoc)
+   * @see A#config()
+   */
+  public void config() {
+    System.out.println("In B config method");
+  }
 }
 
 
